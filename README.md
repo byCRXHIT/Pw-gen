@@ -1,5 +1,7 @@
 Hey and welcome to my Password Generator (^-^)/
 
+## **First make sure you have installed NodeJS (version >14.0)**
+
 1. To install all dependencies run `npm i`
 (Make sure you are inside the folder)
 
