@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Metadaten -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titel -->
+    <title>Passwort Generator</title>
+
+    <!-- SASS Import -->
+    <link rel="stylesheet" href="./css/main.min.css">
+
+    <!-- Font Import (Google Font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Content aus dem Tutorial: START -->
+
+    <div class="wrapper">
+        <div class="logos">
+            Open Source on:
+            <a target="_blank" href="https://github.com/byCRXHIT"><img src="./assets/github.svg"
+                    alt="Logo Github"></a>
+        </div>
+        <div id="password" class="password"></div>
+        <div id="controlBox" class="controls">
+            <form id="controls">
+
+                <!-- Letters -->
+                <label for="letters" class="toggle">
+                    Letters
+                    <input name="letters" id="letters" type="checkbox" value="letters" checked="true">
+                    <span class="roundbutton"></span>
+                </label>
+
+                <!-- Numbers -->
+                <label for="numbers" class="toggle">
+                    Numbers
+                    <input name="numbers" id="numbers" type="checkbox" value="numbers" checked="true">
+                    <span class="roundbutton"></span>
+                </label>
+
+                <!-- Special Characters -->
+                <label for="specialCharacters" class="toggle">
+                    Special Characters
+                    <input name="specialCharacters" id="specialCharacters" checked="true" type="checkbox"
+                        value="specialCharacters">
+                    <span class="roundbutton"></span>
+                </label>
+
+                <!-- Häufig gesperrte Sonderzeichen -->
+                <label for="lockedSpecialCharacters" class="toggle">
+                    Limit special Characters
+                    <input name="lockedSpecialCharacters" id="lockedSpecialCharacters" type="checkbox"
+                        value="lockedSpecialCharacters">
+                    <span class="roundbutton"></span>
+                </label>
+
+                <!-- Range SLider -->
+                <input min="8" max="60" type="range" value="45" name="length" id="length">
+                <div class="length-value">
+                    <span>Lenght</span>
+                    <span id="length-value">45</span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit">Generate Password</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+<!-- JS Import -->
+<script src="./js/main.bundle.js"></script>
+
+</html>
