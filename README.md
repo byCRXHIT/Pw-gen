@@ -5,3 +5,5 @@ Hey and welcome to my Password Generator (^-^)/
 
 2. Second to run it how it is use: `npm run build` 
 or if you want to get a live update use `npm run dev`
+
+Live Preview [here](https://bycrxhit.github.io/Password-Generator)
