@@ -1,14 +1,14 @@
 {
     "name": "passwort-generator",
     "version": "1.0.3",
-    "description": "Code aus dem gemeinsamen Tutorial von The Morpheus Tutorials und Unleashed Design in dem diese einen Passwort Generator bauen.",
+    "description": "Very simple and nice looking passwort generator.",
     "scripts": {
         "dev": "gulp dev",
         "build": "gulp build"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Johannes-Schiel/password-generator"
+        "url": "https://github.com/byCRXHIT/Password-Generator"
     },
     "keywords": [
         "Gulp",
@@ -20,9 +20,9 @@
     "author": "C. Mössner, J. Schiel",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Johannes-Schiel/password-generator/issues"
+        "url": "https://github.com/byCRXHIT/Password-Generator/issues"
     },
-    "homepage": "https://github.com/Johannes-Schiel/password-generator#readme",
+    "homepage": "https://pwgen.bycrxhit.de",
     "devDependencies": {
         "@babel/core": "^7.11.6",
         "@babel/preset-env": "^7.11.5",
