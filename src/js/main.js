@@ -15,6 +15,7 @@ const getRandomNumber = (min, max) => {
 }
 
 //⌄⌄⌄ Real ebig stuff here ⌄⌄⌄
+// yez -Bey
 const animatePassword = () => {
     passwordContainer.innerHTML = '';
     const passwordElements = document.createElement('div');
