@@ -30,15 +30,15 @@ const animatePassword = () => {
     passwordContainer.appendChild(passwordElements);
     const copyed = document.createElement('div');
     copyed.innerHTML = 'Copy Password';
-    copyed.setAttribute('id', 'copyed');
-    copyed.setAttribute('class', 'copyed');
+    copyed.setAttribute('id', 'copied');
+    copyed.setAttribute('class', 'copied');
     passwordContainer.appendChild(copyed);
     const characterContainers = document.querySelectorAll('.character');
     characterContainers.forEach(character => {
         animateCharacter(character)
     });
 }
-
+// so essentially CSS but in JS? -Bey
 const animateCharacter = (element) => {
     setTimeout(() => {
         element.classList.add('show');
@@ -94,9 +94,9 @@ const getFormValues = ($event) => {
     });
     return controlValues;
 }
-
+// who uses 45 letter passes?
 setCurrentPassword({
-    length: 45,
+    length: 12,
     specialCharacters: true,
     numbers: true,
     letters: true,
