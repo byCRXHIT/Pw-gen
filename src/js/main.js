@@ -95,7 +95,7 @@ const getFormValues = ($event) => {
     return controlValues;
 }
 // who uses 45 letter passes?
-//i do - byCRXHIT
+// i do - byCRXHIT
 setCurrentPassword({
     length: 16,
     specialCharacters: false,
