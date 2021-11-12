@@ -95,12 +95,13 @@ const getFormValues = ($event) => {
     return controlValues;
 }
 // who uses 45 letter passes?
+//i do - byCRXHIT
 setCurrentPassword({
-    length: 12,
-    specialCharacters: true,
+    length: 16,
+    specialCharacters: false,
     numbers: true,
     letters: true,
-    lockedSpecialCharacters: false
+    lockedSpecialCharacters: true
 });
 
 
