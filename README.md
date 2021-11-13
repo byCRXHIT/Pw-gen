@@ -6,7 +6,7 @@ Hey and welcome to my Password Generator (^-^)/
 
 `git clone https://github.com/byCRXHIT/Pw-gen.git`, then CD Into It `cd Password-Generator`
 
-###### For Windows, Do `cd .\Password-Generator\`
+###### For Windows Powershell, Do `cd .\Password-Generator\`
 2. To install all dependencies run `npm i`
 
 3. To run it, use: `npm run build` 
