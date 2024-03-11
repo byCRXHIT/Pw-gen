@@ -12,4 +12,4 @@ Hey and welcome to my Password Generator (^-^)/
 3. To run it, use: `npm run build` 
 or if you want to get a live update use `npm run dev`
 
-Live Preview [here](https://pwgen.bycrxhit.de)
+Live Preview [here](https://pwgen.bycrxhit.xyz)
